@@ -1,0 +1,17 @@
+.clasNav {
+    display: block;
+}
+
+@media screen and (max-width: 600px) {
+
+    .clasNav {
+        display: none;
+    }
+
+
+    .descSection {
+        height: 100vh;
+        border-top-right-radius: 30px;
+    }
+
+}

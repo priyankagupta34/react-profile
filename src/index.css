@@ -11,3 +11,53 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+
+@keyframes rollDownAnime {
+  0% {
+    top: 75px;
+  }
+}
+
+.blueBtnTheme {
+  background: #4242e3;
+  border: 1px solid #00002f;
+  color: white;
+}
+
+.blueBtnTheme:hover {
+  background: #5757e6;
+  transition: all 0.2s;
+}
+
+.magentaBtnTheme {
+  background: #dc1313;
+  border: 1px solid #aa0000;
+  color: white;
+}
+
+.magentaBtnTheme:hover {
+  background: #e93333;
+  transition: all 0.2s;
+}
+
+.yellowBtnTheme {
+  background: #dede10;
+  border: 1px solid #b4b41b;
+  color: black;
+}
+
+.yellowBtnTheme:hover {
+  background: #f0f02e;
+  transition: all 0.2s;
+}
+
+.center{
+  text-align: center;
+}

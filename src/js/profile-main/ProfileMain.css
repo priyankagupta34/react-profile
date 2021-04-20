@@ -1,0 +1,106 @@
+.sectionMan {
+    width: 100%;
+    height: 100vh;
+}
+
+.profileimg {
+    min-height: 100px;
+    min-width: 115px;
+    height: 13vh;
+    width: 7vw;
+    background-image: url("passp.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.name {
+    font-size: 1.7em;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contentData {
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 4px grey, 0 0 5px grey, 0 0 6px grey;
+    letter-spacing: 0.3px;
+    line-height: 25px;
+    font-weight: 100;
+}
+
+.btnY {
+    height: 43px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid transparent;
+    margin-top: 15px;
+    cursor: pointer;
+    font-weight: 100 !important;
+    letter-spacing: 0.5px;
+}
+
+.clasNavProf {
+    display: none;
+}
+
+.emailPhone {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 12px;
+}
+
+.emDipData {
+    padding: 10px;
+    font-size: 0.9em;
+    text-align: center;
+    letter-spacing: 0.3px;
+}
+
+.faDon {
+    padding: 7px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 600px) {
+
+    .clasNavProf {
+        display: block;
+    }
+
+    .profileimg {
+        margin-top: 19px;
+    }
+
+    .name {
+        margin-top: 8px;
+    }
+
+    .contentData {
+        padding: 16px;
+        margin: 12px 17px;
+    }
+
+    .emailPhone {
+        grid-template-columns: 1fr;
+    }
+
+    .emDipData {
+        padding: 5px;
+    }
+
+
+
+}
