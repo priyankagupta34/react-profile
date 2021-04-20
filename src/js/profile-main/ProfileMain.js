@@ -29,15 +29,15 @@ export default class ProfileMain extends Component {
                     </div>
 
                     <a href="/Priyanka-Gupta.pdf" download className="aHrf">
-                        <button className={`${btnTheme} btnY`}>Download Resume <i class="fa fa-download"></i> </button>
+                        <button className={`${btnTheme} btnY`}>Download Resume <i className="fa fa-download"></i> </button>
                     </a>
                 </div>
                 <div className="emailPhone">
                     <div className="emDipData" style={{color: contentColor}}>
-                        <span style={{color: contentColor}}><i class="fa fa-envelope"></i> </span> 34priyankagupta@gmail.com
+                        <span style={{color: contentColor}}><i className="fa fa-envelope"></i> </span> 34priyankagupta@gmail.com
                     </div>
                     <div className="emDipData" style={{color: contentColor}}>
-                        <span  style={{color: contentColor}}><i class="fa fa-phone"></i> </span> (+91) 7903365508
+                        <span  style={{color: contentColor}}><i className="fa fa-phone"></i> </span> (+91) 7903365508
                     </div>
                 </div>
             </div>
