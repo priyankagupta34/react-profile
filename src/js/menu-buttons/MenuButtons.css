@@ -122,4 +122,8 @@
     .descNav {
         grid-template-columns: 1fr 0.4fr 0.4fr; 
     }
+
+    .optionPage .option {
+        font-size: 0.8em;
+    }
 }
