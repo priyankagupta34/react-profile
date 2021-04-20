@@ -16,7 +16,12 @@ export default class DescriptionMain extends Component {
                         options={options} />
                 </nav>
                 <section className="descSection" style={{ backgroundColor: 'white' }}>
-                    <ul></ul>
+                    {/* <ul>
+                        <li>Education</li>
+                        <li>Work Experience</li>
+                        <li>Work Projects</li>
+                        <li>Skill Sets</li>
+                    </ul> */}
                 </section>
             </div>
         )
