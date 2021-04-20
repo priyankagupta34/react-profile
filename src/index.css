@@ -26,13 +26,13 @@ code {
 }
 
 .blueBtnTheme {
-  background: #4242e3;
+  background: #050569;
   border: 1px solid #00002f;
   color: white;
 }
 
 .blueBtnTheme:hover {
-  background: #5757e6;
+  background: #0a0a8f;
   transition: all 0.2s;
 }
 
