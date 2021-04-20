@@ -16,7 +16,7 @@ export default class DescriptionMain extends Component {
                         options={options} />
                 </nav>
                 <section className="descSection" style={{ backgroundColor: 'white' }}>
-
+                    <ul></ul>
                 </section>
             </div>
         )
