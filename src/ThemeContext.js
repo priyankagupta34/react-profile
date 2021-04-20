@@ -9,7 +9,8 @@ export const Theme = {
         menuColor: 'white',
         generalColor: '#00002f',
         hoverBacks: '#4242e3',
-        contentColor: '#a0a0d6'
+        contentColor: '#a0a0d6',
+        sectionBackground: '#dbdbe4'
     },
     magentaTheme: {
         sectionTheme: 'magentaSectionTheme',
@@ -19,7 +20,8 @@ export const Theme = {
         menuColor: 'white',
         generalColor: '#aa0000',
         hoverBacks: '#dc1313',
-        contentColor: '#f39797'
+        contentColor: '#f39797',
+        sectionBackground: '#fde4e4'
     },
     yellowTheme: {
         sectionTheme: 'yellowSectionTheme',
@@ -29,7 +31,8 @@ export const Theme = {
         menuColor: 'black',
         generalColor: '#b9b90b',
         hoverBacks: '#dede10',
-        contentColor: '#3c3c01'
+        contentColor: '#3c3c01',
+        sectionBackground: '#ffffba'
     }
 }
 
