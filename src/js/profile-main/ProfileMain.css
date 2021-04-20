@@ -31,14 +31,14 @@ img {
 }
 
 .contentData {
-    padding: 20px;
+    padding: 25px;
+    margin: 28px;
     text-align: center;
-    margin: 20px;
     border-radius: 5px;
     box-shadow: 0 0 4px grey, 0 0 5px grey, 0 0 6px grey;
     letter-spacing: 0.3px;
     line-height: 25px;
-    font-weight: 100;
+    /* font-weight: 100; */
 }
 
 .btnY {
@@ -58,7 +58,7 @@ img {
 
 .emailPhone {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     margin-top: 12px;
 }
 
