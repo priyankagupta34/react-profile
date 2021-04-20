@@ -7,7 +7,7 @@ export default class ProfileMain extends Component {
 
     static contextType = ThemeContext;
     render() {
-        const { menuColor, contentColor, btnTheme } = Theme[this.context];
+        const { menuColor, contentColor, btnTheme, contentBackground } = Theme[this.context];
         const { options, openOptions, changeThemeHandler } = this.props;
         return (
             <div>
@@ -23,7 +23,7 @@ export default class ProfileMain extends Component {
                         Priyanka Gupta
                     </div>
 
-                    <div className="contentData" style={{ color: contentColor }}>
+                    <div className="contentData" style={{ color: contentColor, backgroundColor: contentBackground }}>
                         Being an enthusiatic developer, I am looking for a carrier as a React-FrontEnd or React-Python Fullstack Developer.
                         I have an amazing exposure in various react projects.
                     </div>
