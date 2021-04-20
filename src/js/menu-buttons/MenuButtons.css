@@ -74,12 +74,13 @@
     content: '';
     height: 0;
     width: 0;
-    border-left: 11px solid transparent;
-    border-right: 11px solid transparent;
+    border-left: 11px solid transparent !important;
+    border-right: 11px solid transparent !important;
     border-bottom: 8px solid white;
     position: absolute;
-    top: -5px;
+    top: -8px;
     left: 65px;
+    z-index: 1;
 }
 
 
