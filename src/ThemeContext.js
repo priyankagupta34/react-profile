@@ -9,7 +9,7 @@ export const Theme = {
         menuColor: 'white',
         generalColor: '#00002f',
         hoverBacks: '#4242e3',
-        contentColor: 'rgb(114 114 179)'
+        contentColor: 'rgb(186 186 222)'
     },
     magentaTheme: {
         sectionTheme: 'magentaSectionTheme',
@@ -19,7 +19,7 @@ export const Theme = {
         menuColor: 'white',
         generalColor: '#aa0000',
         hoverBacks: '#dc1313',
-        contentColor: '#e0c3c3'
+        contentColor: 'rgb(239 224 224)'
     },
     yellowTheme: {
         sectionTheme: 'yellowSectionTheme',
@@ -29,7 +29,7 @@ export const Theme = {
         menuColor: 'black',
         generalColor: '#b9b90b',
         hoverBacks: '#dede10',
-        contentColor: 'rgb(57 57 3)'
+        contentColor: 'black'
     }
 }
 
