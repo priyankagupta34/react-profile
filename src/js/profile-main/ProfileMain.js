@@ -34,7 +34,7 @@ export default class ProfileMain extends Component {
                 </div>
                 <div className="emailPhone">
                     <div className="emDipData" style={{color: contentColor}}>
-                        <span style={{color: contentColor}}><i class="fa fa-download"></i> </span> 34priyankagupta@gmail.com
+                        <span style={{color: contentColor}}><i class="fa fa-envelope"></i> </span> 34priyankagupta@gmail.com
                     </div>
                     <div className="emDipData" style={{color: contentColor}}>
                         <span  style={{color: contentColor}}><i class="fa fa-phone"></i> </span> (+91) 7903365508
