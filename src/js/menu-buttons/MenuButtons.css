@@ -183,4 +183,12 @@
     .optionPage .option {
         font-size: 0.8em;
     }
+
+    .aboutDetailsYellow,.aboutDetailsRed, .aboutDetailsBlue{
+        width: 192px;
+    }
+
+    .aboutDetailsYellow::before, .aboutDetailsRed::before, .aboutDetailsBlue::before{
+        left: 13vh;
+    }
 }

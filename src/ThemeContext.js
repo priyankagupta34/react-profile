@@ -51,7 +51,7 @@ export const Theme = {
         contentBackground: '#abab08',
         tableBorderTheme:'yellowTableBorderTheme',
         descriptionColor:'#1d1d00',
-        aboutTheme: 'aboutDetailsBlue'
+        aboutTheme: 'aboutDetailsYellow'
     }
 }
 
