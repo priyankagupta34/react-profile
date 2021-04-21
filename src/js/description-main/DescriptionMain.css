@@ -41,7 +41,7 @@
 .nameverb {
     display: block;
     font-size: 1.1em;
-    font-weight: 100;
+    /* font-weight: 100; */
     letter-spacing: 2px;
     color: rgb(60 60 1);
 }
@@ -64,7 +64,7 @@
 
 .listAbs {
     font-size: 1.6em;
-    font-weight: 100;
+    /* font-weight: 100; */
     margin-left: -23px;
 }
 
