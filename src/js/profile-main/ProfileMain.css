@@ -38,7 +38,8 @@ img {
     /* box-shadow: 0 0 4px grey, 0 0 5px grey, 0 0 6px grey; */
     letter-spacing: 0.3px;
     line-height: 25px;
-    font-weight: 100;
+    /* font-weight: 100; */
+        font-size: 0.9em;
 }
 
 .btnY {
@@ -67,7 +68,7 @@ img {
     font-size: 0.9em;
     text-align: center;
     letter-spacing: 0.3px;
-    font-weight: 100;
+    /* font-weight: 100; */
 }
 
 .faDon {

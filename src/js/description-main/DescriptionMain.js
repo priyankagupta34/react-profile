@@ -117,7 +117,9 @@ export default class DescriptionMain extends Component {
                                                         <td className={`bitTabTd ${tableBorderTheme}`}>{item.name}</td>
                                                         <td className={`bitTabTd ${tableBorderTheme}`}>{item.techs}</td>
                                                         <td className={`bitTabTd ${tableBorderTheme}`}><button className={`menuBtn_1 ${btnDefaultTheme}`}
-                                                            onClick={this.showDescription.bind(this, `bos_${index}`)}>Show </button></td>
+                                                            onClick={this.showDescription.bind(this, `bos_${index}`)}>
+                                                            {`bos_${index}` === activeShowDesc? 'Hide':'Show'}
+                                                             </button></td>
                                                     </tr>
                                                     {activeShowDesc === `bos_${index}` && <tr className="descRT"
                                                         style={{ color: descriptionColor, borderRight: `4px solid ${generalColor}`, borderLeft: `4px solid ${generalColor}` }}
