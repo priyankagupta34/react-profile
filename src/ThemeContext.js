@@ -15,7 +15,8 @@ export const Theme = {
         sectionBackground: '#dbdbe4',
         contentBackground: '#090954',
         tableBorderTheme: 'blueTableBorderTheme',
-        descriptionColor: '#161661'
+        descriptionColor: '#161661',
+        aboutTheme: 'aboutDetailsBlue'
     },
     magentaTheme: {
         sectionTheme: 'magentaSectionTheme',
@@ -31,7 +32,8 @@ export const Theme = {
         sectionBackground: '#fde4e4',
         contentBackground: '#980303',
         tableBorderTheme: 'magentaTableBorderTheme',
-        descriptionColor: '#aa0000'
+        descriptionColor: '#aa0000',
+        aboutTheme: 'aboutDetailsRed'
 
     },
     yellowTheme: {
@@ -48,7 +50,8 @@ export const Theme = {
         sectionBackground: '#ffffba',
         contentBackground: '#abab08',
         tableBorderTheme:'yellowTableBorderTheme',
-        descriptionColor:'#b9b90b',
+        descriptionColor:'#1d1d00',
+        aboutTheme: 'aboutDetailsBlue'
     }
 }
 

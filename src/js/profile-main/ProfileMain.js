@@ -22,7 +22,7 @@ export default class ProfileMain extends Component {
                     <div className="name" style={{ color: menuColor }}>
                         Priyanka Gupta
                     </div>
-{/* 
+                    {/* 
                     <div>
                         <i className="fas fa-keyboard trickn" style={{ color: contentColor}}></i>
                     </div> */}
@@ -33,15 +33,15 @@ export default class ProfileMain extends Component {
                     </div>
 
                     <a href="/Priyanka-Gupta.pdf" download className="aHrf">
-                        <button className={`${btnTheme} btnY`} style={{color: contentColor}}>Download Resume <i className="fa fa-download"></i> </button>
+                        <button className={`${btnTheme} btnY`} style={{ color: contentColor }}>Download Resume <i className="fa fa-download"></i> </button>
                     </a>
                 </div>
                 <div className="emailPhone">
-                    <div className="emDipData" style={{color: contentColor}}>
-                        <span style={{color: contentColor}}><i className="fa fa-envelope"></i> </span> 34priyankagupta@gmail.com
+                    <div className="emDipData" style={{ color: contentColor }}>
+                        <span style={{ color: contentColor }}><i className="fa fa-envelope"></i> </span> 34priyankagupta@gmail.com
                     </div>
-                    <div className="emDipData" style={{color: contentColor}}>
-                        <span  style={{color: contentColor}}><i className="fa fa-phone"></i> </span> (+91) 7903365508
+                    <div className="emDipData" style={{ color: contentColor }}>
+                        <span style={{ color: contentColor }}><i className="fa fa-phone"></i> </span> (+91) 7903365508
                     </div>
                 </div>
             </div>
