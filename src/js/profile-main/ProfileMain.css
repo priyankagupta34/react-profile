@@ -39,7 +39,8 @@ img {
     letter-spacing: 0.3px;
     line-height: 25px;
     /* font-weight: 100; */
-        font-size: 0.9em;
+    font-size: 0.9em;
+    margin-top: 16px;
 }
 
 .btnY {
@@ -76,9 +77,27 @@ img {
     border-radius: 50%;
 }
 
-.trickn{
+.trickn {
     margin-top: 20px;
     font-size: 2em;
+}
+
+.iconSpder {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.ty56,
+.ty57 {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    font-size: 1.5em;
+    padding-bottom: 0;
+}
+
+.ty57 {
+    justify-content: flex-start;
 }
 
 @media screen and (max-width: 800px) {
