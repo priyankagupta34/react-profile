@@ -2,6 +2,18 @@
     display: block;
 }
 
+.educateExper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.edu,
+.exp {
+    text-align: center;
+}
+
+.exp {}
+
 @media screen and (max-width: 600px) {
 
     .clasNav {

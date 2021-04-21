@@ -10,7 +10,7 @@ export default class MenuButtons extends Component {
         return (
             <nav className="descNav" style={{ backgroundColor }}>
                 <div></div>
-                <button className={`menuBtn ${btnTheme}`}>About</button>
+                <button className={`menuBtn ${btnTheme}`}>About <i className="fas fa-atom"></i></button>
                 <button className={`menuBtn ${btnTheme}`} onClick={this.props.openOptions}>Theme
                 <i className={options ? "fa fa-angle-up doE" : "fa fa-angle-up upE"} ></i>
                 </button>

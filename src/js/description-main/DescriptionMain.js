@@ -22,6 +22,18 @@ export default class DescriptionMain extends Component {
                         <li>Work Projects</li>
                         <li>Skill Sets</li>
                     </ul> */}
+                    <div className="educateExper">
+                        <div className="edu">
+                            <div>
+                                <i className="fas fa-graduation-cap"></i>Education
+                            </div>
+                        </div>
+                        <div className="exp">
+                            <div>
+                                <i className="fas fa-laptop-code"></i>
+                                Experience</div>
+                        </div>
+                    </div>
                 </section>
             </div>
         )
