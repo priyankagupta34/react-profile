@@ -26,13 +26,13 @@ code {
 }
 
 .blueBtnTheme {
-  background: #050569;
+  background: #222294;
   border: 1px solid #00002f;
   color: white;
 }
 
 .blueBtnTheme:hover {
-  background: #0a0a8f;
+  background: #1010c0;
   transition: all 0.2s;
 }
 
@@ -143,16 +143,20 @@ code {
 }
 
 .blueTableBorderTheme{
+  background-color: #dbdbe4;
   border-right: 1px solid #c2c8f7;
   border-bottom: 1px solid #c2c8f7;
 }
 
 .magentaTableBorderTheme{
+  background-color: #fde4e4;
   border-right: 1px solid #ffcece;
   border-bottom: 1px solid #ffcece;
 }
 
 .yellowTableBorderTheme{
+  background-color: rgb(255, 255, 186);
   border-right: 1px solid #ddf7c1;
   border-bottom: 1px solid #ddf7c1;
+  color: #1d1d00;
 }

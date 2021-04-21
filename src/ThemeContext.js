@@ -6,16 +6,16 @@ export const Theme = {
         btnTheme: 'blueBtnTheme',
         tabTheme: 'blueTabTheme',
         btnDefaultTheme: 'blueBtnDefaultTheme',
-        backgroundColor: '#00002f',
+        backgroundColor: '#161661',
         boxShadow: '0 0 9px #3c3c9c',
         menuColor: 'white',
-        generalColor: '#00002f',
+        generalColor: '#161661',
         hoverBacks: '#4242e3',
-        contentColor: '#a0a0d6',
+        contentColor: '#c0c0dc',
         sectionBackground: '#dbdbe4',
-        contentBackground: '#01011b',
-        tableBorderTheme: 'blueTableBorderTheme'
-        // descriptionColor: 'rgb(74 3 3)'
+        contentBackground: '#090954',
+        tableBorderTheme: 'blueTableBorderTheme',
+        descriptionColor: '#161661'
     },
     magentaTheme: {
         sectionTheme: 'magentaSectionTheme',
@@ -27,11 +27,11 @@ export const Theme = {
         menuColor: 'white',
         generalColor: '#aa0000',
         hoverBacks: '#dc1313',
-        contentColor: '#f39797',
+        contentColor: '#f7d2d2',
         sectionBackground: '#fde4e4',
-        contentBackground: '#730a0a',
-        tableBorderTheme: 'magentaTableBorderTheme'
-        // descriptionColor: '#4a0303'
+        contentBackground: '#980303',
+        tableBorderTheme: 'magentaTableBorderTheme',
+        descriptionColor: '#aa0000'
 
     },
     yellowTheme: {
@@ -44,11 +44,11 @@ export const Theme = {
         menuColor: 'black',
         generalColor: '#b9b90b',
         hoverBacks: '#dede10',
-        contentColor: '#3c3c01',
+        contentColor: 'rgb(29 29 0)',
         sectionBackground: '#ffffba',
-        contentBackground: 'rgb(152 152 7)',
-        tableBorderTheme:'yellowTableBorderTheme'
-        // descriptionColor:'rgb(152 152 7)',
+        contentBackground: '#abab08',
+        tableBorderTheme:'yellowTableBorderTheme',
+        descriptionColor:'#b9b90b',
     }
 }
 
