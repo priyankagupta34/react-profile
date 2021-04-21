@@ -105,18 +105,19 @@
     transition: all 0.3s;
 } */
 
-.upE, .doE{
+.upE,
+.doE {
     margin-left: 10px;
     transform: rotate(180deg);
     transition: all 0.3s;
 }
 
-.doE{
+.doE {
     transform: rotate(0deg);
     transition: all 0.3s;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
 
     .downArr,
     .upArr {

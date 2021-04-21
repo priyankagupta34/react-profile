@@ -14,7 +14,7 @@ export default class DescriptionMain extends Component {
                 { name: 'Compass', techs: 'ReactJs, Python', desc: '' },
                 { name: 'Edmask', techs: 'ReactJs, Python', desc: '' },
                 { name: 'Text-Analytics', techs: 'ReactJs, NodeJs', desc: '' },
-                { name: 'Geo-Visualization', techs: 'ReactJs, Java', desc: '' },
+                { name: 'Geo-Viz', techs: 'ReactJs, Java', desc: '' },
                 { name: 'EBR-Finder', techs: 'Angular6, Python', desc: '' },
                 { name: 'Mantra', techs: 'AngularJs, Java', desc: '' },
                 { name: 'Austria', techs: 'AngularJs, Java', desc: '' },
@@ -100,13 +100,13 @@ export default class DescriptionMain extends Component {
                                             <tr className="table_head1">
                                                 <th className={`bitTabTd ${tableBorderTheme}`}>Project-Name</th>
                                                 <th className={`bitTabTd ${tableBorderTheme}`}>Technologies</th>
-                                                <th className={`bitTabTd ${tableBorderTheme}`}>Description</th>
+                                                <th className={`bitTabTd ${tableBorderTheme}`}>About</th>
                                             </tr>
                                             {this.tableData.bosch.map((item, index) => (
                                                 <tr key={`inf_${index}`} className="table_head1">
                                                     <td className={`bitTabTd ${tableBorderTheme}`}>{item.name}</td>
                                                     <td className={`bitTabTd ${tableBorderTheme}`}>{item.techs}</td>
-                                                    <td className={`bitTabTd ${tableBorderTheme}`}><button className={`menuBtn_1 ${btnDefaultTheme}`} style={{ color: contentColor }}>Show </button></td>
+                                                    <td className={`bitTabTd ${tableBorderTheme}`}><button className={`menuBtn_1 ${btnDefaultTheme}`}>Show </button></td>
                                                 </tr>
                                             ))}
                                         </table>
@@ -121,13 +121,13 @@ export default class DescriptionMain extends Component {
                                             <tr className="table_head1">
                                                 <th className={`bitTabTd ${tableBorderTheme}`}>Project-Name</th>
                                                 <th className={`bitTabTd ${tableBorderTheme}`}>Technologies</th>
-                                                <th className={`bitTabTd ${tableBorderTheme}`}>Description</th>
+                                                <th className={`bitTabTd ${tableBorderTheme}`}>About</th>
                                             </tr>
                                             {this.tableData.infosys.map((item, index) => (
                                                 <tr key={`inf_${index}`} className="table_head1">
                                                     <td className={`bitTabTd ${tableBorderTheme}`}>{item.name}</td>
                                                     <td className={`bitTabTd ${tableBorderTheme}`}>{item.techs}</td>
-                                                    <td className={`bitTabTd ${tableBorderTheme}`}><button className={`menuBtn_1 ${btnDefaultTheme}`} style={{ color: contentColor }}>Show </button></td>
+                                                    <td className={`bitTabTd ${tableBorderTheme}`}><button className={`menuBtn_1 ${btnDefaultTheme}`}>Show </button></td>
                                                 </tr>
                                             ))}
                                         </table>
