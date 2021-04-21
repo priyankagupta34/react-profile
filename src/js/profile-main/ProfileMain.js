@@ -29,7 +29,7 @@ export default class ProfileMain extends Component {
                     </div>
 
                     <a href="/Priyanka-Gupta.pdf" download className="aHrf">
-                        <button className={`${btnTheme} btnY`}>Download Resume <i className="fa fa-download"></i> </button>
+                        <button className={`${btnTheme} btnY`} style={{color: contentColor}}>Download Resume <i className="fa fa-download"></i> </button>
                     </a>
                 </div>
                 <div className="emailPhone">

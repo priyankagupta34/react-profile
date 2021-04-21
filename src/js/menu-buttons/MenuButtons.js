@@ -6,12 +6,12 @@ export default class MenuButtons extends Component {
     static contextType = ThemeContext;
     render() {
         const { options } = this.props;
-        const { btnTheme, backgroundColor, boxShadow, sectionBackground } = Theme[this.context];
+        const { btnTheme, backgroundColor, boxShadow, sectionBackground, contentColor } = Theme[this.context];
         return (
             <nav className="descNav" style={{ backgroundColor }}>
                 <div></div>
-                <button className={`menuBtn ${btnTheme}`}>About <i className="fas fa-atom"></i></button>
-                <button className={`menuBtn ${btnTheme}`} onClick={this.props.openOptions}>Theme
+                <button className={`menuBtn ${btnTheme}`} style={{color: contentColor}}>About <i className="fas fa-atom"></i></button>
+                <button className={`menuBtn ${btnTheme}`} style={{color: contentColor}} onClick={this.props.openOptions}>Theme
                 <i className={options ? "fa fa-angle-up doE" : "fa fa-angle-up upE"} ></i>
                 </button>
                 {options && <div className="optionPage" style={{ boxShadow}}>

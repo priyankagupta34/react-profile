@@ -4,6 +4,8 @@ export const Theme = {
     blueTheme: {
         sectionTheme: 'blueSectionTheme',
         btnTheme: 'blueBtnTheme',
+        tabTheme: 'blueTabTheme',
+        btnDefaultTheme: 'blueBtnDefaultTheme',
         backgroundColor: '#00002f',
         boxShadow: '0 0 9px #3c3c9c',
         menuColor: 'white',
@@ -11,11 +13,15 @@ export const Theme = {
         hoverBacks: '#4242e3',
         contentColor: '#a0a0d6',
         sectionBackground: '#dbdbe4',
-        contentBackground: '#01011b'
+        contentBackground: '#01011b',
+        tableBorderTheme: 'blueTableBorderTheme'
+        // descriptionColor: 'rgb(74 3 3)'
     },
     magentaTheme: {
         sectionTheme: 'magentaSectionTheme',
         btnTheme: 'magentaBtnTheme',
+        tabTheme: 'magentaTabTheme',
+        btnDefaultTheme: 'magentaBtnDefaultTheme',
         backgroundColor: '#aa0000',
         boxShadow: '0 0 9px #aa0000',
         menuColor: 'white',
@@ -23,11 +29,16 @@ export const Theme = {
         hoverBacks: '#dc1313',
         contentColor: '#f39797',
         sectionBackground: '#fde4e4',
-        contentBackground: '#730a0a'
+        contentBackground: '#730a0a',
+        tableBorderTheme: 'magentaTableBorderTheme'
+        // descriptionColor: '#4a0303'
+
     },
     yellowTheme: {
         sectionTheme: 'yellowSectionTheme',
         btnTheme: 'yellowBtnTheme',
+        tabTheme: 'yellowTabTheme',
+        btnDefaultTheme: 'yellowBtnDefaultTheme',
         backgroundColor: '#b5b50a',
         boxShadow: '0 0 9px #b9b90b',
         menuColor: 'black',
@@ -35,7 +46,9 @@ export const Theme = {
         hoverBacks: '#dede10',
         contentColor: '#3c3c01',
         sectionBackground: '#ffffba',
-        contentBackground: 'rgb(152 152 7)'
+        contentBackground: 'rgb(152 152 7)',
+        tableBorderTheme:'yellowTableBorderTheme'
+        // descriptionColor:'rgb(152 152 7)',
     }
 }
 

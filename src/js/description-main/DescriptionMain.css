@@ -4,15 +4,104 @@
 
 .educateExper {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 16vh;
 }
 
-.edu,
 .exp {
     text-align: center;
+    transition: all 0.3s;
 }
 
-.exp {}
+.exp:first-child {
+    border-top-left-radius: 30px;
+}
+
+.exp {
+    padding: 13px;
+
+}
+
+/* .exp {} */
+
+.signCaps {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 50%;
+    /* margin-top: 10px; */
+    font-size: 1.6em;
+}
+
+.nameverb {
+    display: block;
+    font-size: 1.1em;
+    font-weight: 100;
+    letter-spacing: 2px;
+    color: rgb(60 60 1);
+}
+
+/* .exp::after{
+    content: '';
+    display: block;
+    height: 2px;
+    width: 9vw;
+    margin: 10px auto;
+    background-color: #7e7ea7;
+} */
+
+.contBlock {
+    overflow-y: auto;
+    overflow-x: hidden;
+    word-break: break-word;
+    height: 74vh;
+}
+
+.listAbs {
+    font-size: 1.6em;
+    font-weight: 100;
+    margin-left: -23px;
+}
+
+.tableA {
+    font-size: 0.7em;
+    margin-bottom: 21px;
+}
+
+.ulStufTheme {
+    border-left: 4px solid;
+    margin-left: 30px;
+}
+
+.expCont_1 {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+}
+
+.bitTabTd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+}
+
+.table_head1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 35px;
+}
+
+.menuBtn_1 {
+    outline: none;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+
 
 @media screen and (max-width: 600px) {
 
@@ -26,4 +115,14 @@
         border-top-right-radius: 30px;
     }
 
+    .nameverb {
+        display: none;
+    }
+
+    .expCont_1 {
+        grid-template-columns: 1fr;
+    }
+    .exp:last-child {
+        border-top-right-radius: 30px;
+    }
 }

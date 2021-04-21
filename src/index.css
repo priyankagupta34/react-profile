@@ -58,6 +58,86 @@ code {
   transition: all 0.2s;
 }
 
-.center{
+.center {
   text-align: center;
+}
+
+.blueTabTheme {
+  background-color: #8fc7f8;
+  transition: all 0.3s;
+}
+
+.blueTabTheme:hover {
+  background-color: #6fb7f5;
+  transition: all 0.3s;
+}
+
+.blueTabTheme::after,
+.magentaTabTheme::after,
+.yellowTabTheme::after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 9vw;
+  margin: 10px auto;
+  background-color: #00002f;
+}
+
+.magentaTabTheme::after {
+  background: #dc1313;
+}
+
+.yellowTabTheme::after {
+  background: #dede10;
+}
+
+.magentaTabTheme {
+  background-color: #f8bebe;
+  transition: all 0.3s;
+}
+
+.magentaTabTheme:hover {
+  background-color: #faa8a8;
+  transition: all 0.3s;
+}
+
+.magentaBtnTheme::after {
+  background-color: #b4b41b;
+}
+
+.yellowTabTheme {
+  background-color: #f8f881;
+  transition: all 0.3s;
+}
+
+.yellowTabTheme:hover {
+  background-color: #fdfd64;
+  transition: all 0.3s;
+}
+
+.blueBtnDefaultTheme{
+
+}
+
+.magentaBtnDefaultTheme{
+
+}
+
+.yellowBtnDefaultTheme{
+
+}
+
+.blueTableBorderTheme{
+  border-right: 1px solid #c2c8f7;
+  border-bottom: 1px solid #c2c8f7;
+}
+
+.magentaTableBorderTheme{
+  border-right: 1px solid #ffcece;
+  border-bottom: 1px solid #ffcece;
+}
+
+.yellowTableBorderTheme{
+  border-right: 1px solid #ddf7c1;
+  border-bottom: 1px solid #ddf7c1;
 }
