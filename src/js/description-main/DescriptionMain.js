@@ -51,7 +51,7 @@ export default class DescriptionMain extends Component {
         const { options, openOptions, changeThemeHandler } = this.props;
         const { backgroundColor, sectionBackground, generalColor, contentBackground, contentColor, btnTheme,
             descriptionColor,
-            tableBorderTheme, tabTheme, btnDefaultTheme } = Theme[this.context];
+            tableBorderTheme, tabTheme, btnDefaultTheme, tabBtn } = Theme[this.context];
         return (
             <div style={{ backgroundColor }}>
                 <nav className="clasNav">
@@ -63,21 +63,23 @@ export default class DescriptionMain extends Component {
 
                         <div className={`exp ${tabTheme}`} style={activeTab === 'experience' ? { backgroundColor: sectionBackground } : {}}
                             onClick={this.selectTab.bind(this, 'experience')}>
-                            <div className={`signCaps ${btnTheme}`}
-                                style={{
-                                    border: `1px solid ${generalColor}`,
-                                    color: contentColor
-                                }}
+                            <div className={`signCaps ${tabBtn}`}
+                            // style={{
+                            //     border: `1px solid ${generalColor}`,
+                            //     color: backgroundColor,
+                            //     backgroundColor: contentColor
+                            // }}
                             ><i className="fas fa-laptop-code"></i></div>
                             <div className="nameverb" style={{ color: contentBackground }}> Experience</div>
                         </div>
                         <div className={`exp ${tabTheme}`} style={activeTab === 'education' ? { backgroundColor: sectionBackground } : {}}
                             onClick={this.selectTab.bind(this, 'education')}>
-                            <div className={`signCaps ${btnTheme}`}
-                                style={{
-                                    border: `1px solid ${generalColor}`,
-                                    color: contentColor
-                                }}
+                            <div className={`signCaps ${tabBtn}`}
+                            // style={{
+                            //     border: `1px solid ${generalColor}`,
+                            //     color: backgroundColor,
+                            //     backgroundColor: contentColor
+                            // }}
                             >
                                 <i className="fas fa-graduation-cap"></i>
                             </div>
@@ -86,11 +88,12 @@ export default class DescriptionMain extends Component {
 
                         <div className={`exp ${tabTheme}`} style={activeTab === 'award' ? { backgroundColor: sectionBackground } : {}}
                             onClick={this.selectTab.bind(this, 'award')}>
-                            <div className={`signCaps ${btnTheme}`}
-                                style={{
-                                    border: `1px solid ${generalColor}`,
-                                    color: contentColor
-                                }}
+                            <div className={`signCaps ${tabBtn}`}
+                            // style={{
+                            //     border: `1px solid ${generalColor}`,
+                            //     color: backgroundColor,
+                            //     backgroundColor: contentColor
+                            // }}
                             ><i className="fas fa-award"></i></div>
                             <div className="nameverb" style={{ color: contentBackground }}> Award</div>
                         </div>
@@ -118,8 +121,8 @@ export default class DescriptionMain extends Component {
                                                         <td className={`bitTabTd ${tableBorderTheme}`}>{item.techs}</td>
                                                         <td className={`bitTabTd ${tableBorderTheme}`}><button className={`menuBtn_1 ${btnDefaultTheme}`}
                                                             onClick={this.showDescription.bind(this, `bos_${index}`)}>
-                                                            {`bos_${index}` === activeShowDesc? 'Hide':'Show'}
-                                                             </button></td>
+                                                            {`bos_${index}` === activeShowDesc ? 'Hide' : 'Show'}
+                                                        </button></td>
                                                     </tr>
                                                     {activeShowDesc === `bos_${index}` && <tr className="descRT"
                                                         style={{ color: descriptionColor, borderRight: `4px solid ${generalColor}`, borderLeft: `4px solid ${generalColor}` }}

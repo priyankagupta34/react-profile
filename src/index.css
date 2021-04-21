@@ -115,48 +115,66 @@ code {
   transition: all 0.3s;
 }
 
-.blueBtnDefaultTheme{
+.blueBtnDefaultTheme {
   color: #6464dc;
   background: #b1dbff;
 }
 
-.blueBtnDefaultTheme:hover{
+.blueBtnDefaultTheme:hover {
   background: #7cbcf5;
 }
 
-.magentaBtnDefaultTheme{
+.magentaBtnDefaultTheme {
   color: #f36060;
   background: #ffcbcb;
 }
 
-.magentaBtnDefaultTheme:hover{
+.magentaBtnDefaultTheme:hover {
   background-color: #f7a2a2;
 }
 
-.yellowBtnDefaultTheme{
+.yellowBtnDefaultTheme {
   color: #3c3c01;
   background: #f8f881;
 }
 
-.yellowBtnDefaultTheme:hover{
+.yellowBtnDefaultTheme:hover {
   background: #e9e970;
 }
 
-.blueTableBorderTheme{
+.blueTableBorderTheme {
   background-color: #dbdbe4;
   border-right: 1px solid #c2c8f7;
   border-bottom: 1px solid #c2c8f7;
 }
 
-.magentaTableBorderTheme{
+.magentaTableBorderTheme {
   background-color: #fde4e4;
   border-right: 1px solid #ffcece;
   border-bottom: 1px solid #ffcece;
 }
 
-.yellowTableBorderTheme{
+.yellowTableBorderTheme {
   background-color: rgb(255, 255, 186);
   border-right: 1px solid #ddf7c1;
   border-bottom: 1px solid #ddf7c1;
   color: #1d1d00;
+}
+
+.blueTabBtn {
+  border: 2px solid #758bfb;
+  background-color: #63aef1;
+  color: #161661;
+}
+
+.magentaTabBtn {
+  border: 2px solid #f38585;
+  background-color: #f79b9b;
+  color: #aa0000;
+}
+
+.yellowTabBtn {
+  border: 2px solid #d6d649;
+  background-color: #e6e645;
+  color: #b5b50a;
 }
