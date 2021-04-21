@@ -49,7 +49,7 @@ export default class DescriptionMain extends Component {
     render() {
         const { activeTab, activeShowDesc } = this.state;
         const { options, openOptions, changeThemeHandler } = this.props;
-        const { backgroundColor, sectionBackground, generalColor, contentBackground, contentColor, btnTheme,
+        const { backgroundColor, sectionBackground, generalColor, contentBackground,
             descriptionColor,
             tableBorderTheme, tabTheme, btnDefaultTheme, tabBtn } = Theme[this.context];
         return (
