@@ -23,10 +23,10 @@ export default class ProfileMain extends Component {
                         Priyanka Gupta
                     </div>
                     
-                    <div className="iconSpder">
+                    {/* <div className="iconSpder">
                         <div className="ty56" style={{color: menuColor}}><i className="fab fa-facebook"></i></div>
                         <div className="ty57" style={{color: menuColor}}><i className="fab fa-instagram-square"></i></div>
-                    </div>
+                    </div> */}
 
                     <div className="contentData" style={{ color: contentColor, backgroundColor: contentBackground }}>
                         Being an enthusiatic developer, I am looking for a carrier as a React-FrontEnd or React-Python Fullstack Developer.

@@ -6,6 +6,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     height: 16vh;
+    z-index: 2;
+    position: relative;
 }
 
 .exp {
@@ -131,6 +133,119 @@
     }
 }
 
+.brt_9 {
+    font-weight: 100;
+}
+
+.io_1 {
+    position: relative;
+    animation: io_1 linear 0.8s;
+}
+
+@keyframes io_1 {
+    0% {
+        top: -34px;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
+.io_2 {
+    position: relative;
+    animation: io_2 linear 0.8s;
+}
+
+@keyframes io_2 {
+    0% {
+        top: -24px;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
+
+.io_3 {
+    position: relative;
+    animation: io_3 linear 0.8s;
+}
+
+@keyframes io_3 {
+    0% {
+        top: -14px;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
+.tableC {
+    font-size: 0.55em;
+    border: 4px solid;
+    width: 57%;
+    padding: 13px;
+    margin: 41px;
+    margin-top: 9px;
+    background: white;
+    border-radius: 4px;
+    border-bottom: none;
+    border-top: none;
+    position: relative;
+    letter-spacing: 0.4px;
+    word-spacing: 3px;
+    line-height: 25px;
+}
+
+.tabC_1 {
+    animation: tabC_1 linear 0.6s;
+}
+
+@keyframes tabC_1 {
+    0% {
+        left: 100px;
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+.tabC_2 {
+    animation: tabC_2 linear 0.6s;
+}
+
+@keyframes tabC_2 {
+    0% {
+        left: 80px;
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+.tabC_3 {
+    animation: tabC_3 linear 0.6s;
+}
+
+@keyframes tabC_3 {
+    0% {
+        left: 60px;
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+.expCont_2 {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+}
 
 @media screen and (max-width: 800px) {
 
@@ -182,5 +297,23 @@
         margin-right: 2.3vh;
         letter-spacing: 0.2px;
         word-spacing: 1px;
+    }
+
+    .expCont_2 {
+        grid-template-columns: 1fr;
+    }
+
+    .tableC {
+        width: 84vw;
+        margin-left: 0.5vh;
+        z-index: 1;
+    }
+}
+
+@media screen and (max-width: 800px) and (min-width: 500px) {
+
+    .tableC {
+        width: 89vw;
+        margin-left: 1vh;
     }
 }

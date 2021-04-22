@@ -3,24 +3,24 @@ import { Theme, ThemeContext } from '../../ThemeContext';
 import './MenuButtons.css';
 
 export default class MenuButtons extends Component {
-    constructor(props){
+    constructor(props) {
         super(props);
-        this.state ={
+        this.state = {
             open: false
         };
-        this.openAboutBox=this.openAboutBox.bind(this);
+        this.openAboutBox = this.openAboutBox.bind(this);
     }
-    openAboutBox(){
+    openAboutBox() {
         this.setState({
             ...this.state,
-            open: this.state.open ? false: true
+            open: this.state.open ? false : true
         })
     }
     static contextType = ThemeContext;
     render() {
         const { options } = this.props;
-        const {open} = this.state;
-        const { btnTheme, backgroundColor, boxShadow, sectionBackground, contentColor, aboutTheme } = Theme[this.context];
+        const { open } = this.state;
+        const { btnTheme, backgroundColor, boxShadow, sectionBackground, contentColor, aboutTheme,hoverBacks } = Theme[this.context];
         return (
             <nav className="descNav" style={{ backgroundColor }}>
                 <div></div>
@@ -32,9 +32,9 @@ export default class MenuButtons extends Component {
                 <i className={options ? "fa fa-angle-up doE" : "fa fa-angle-up upE"} ></i>
                 </button>
                 {options && <div className="optionPage" style={{ boxShadow }}>
-                    <div className="option" style={{ backgroundColor: sectionBackground }} onClick={() => this.props.changeThemeHandler_('blueTheme')}>blue</div>
-                    <div className="option" style={{ backgroundColor: sectionBackground }} onClick={() => this.props.changeThemeHandler_('magentaTheme')}>magenta</div>
-                    <div className="option" style={{ backgroundColor: sectionBackground }} onClick={() => this.props.changeThemeHandler_('yellowTheme')}>yellow</div>
+                    <div className="option" style={{ backgroundColor: this.context === 'blueTheme' ? hoverBacks : sectionBackground, color: this.context === 'blueTheme' ? contentColor : '#484444;' }} onClick={() => this.props.changeThemeHandler_('blueTheme')}>blue</div>
+                    <div className="option" style={{ backgroundColor: this.context === 'magentaTheme' ? hoverBacks : sectionBackground, color: this.context === 'magentaTheme' ? contentColor : '#484444;' }} onClick={() => this.props.changeThemeHandler_('magentaTheme')}>magenta</div>
+                    <div className="option" style={{ backgroundColor: this.context === 'yellowTheme' ? hoverBacks : sectionBackground, color: this.context === 'yellowTheme' ? contentColor : '#484444;' }} onClick={() => this.props.changeThemeHandler_('yellowTheme')}>yellow</div>
                 </div>}
             </nav>
         )

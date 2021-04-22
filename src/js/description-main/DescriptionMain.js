@@ -61,7 +61,7 @@ export default class DescriptionMain extends Component {
                 <section className="descSection" style={{ backgroundColor: sectionBackground }}>
                     <div className="educateExper">
 
-                        <div className={`exp ${tabTheme}`} style={activeTab === 'experience' ? { backgroundColor: sectionBackground } : {}}
+                        <div className={`exp ${tabTheme}  io_1`} style={activeTab === 'experience' ? { backgroundColor: sectionBackground } : {}}
                             onClick={this.selectTab.bind(this, 'experience')}>
                             <div className={`signCaps ${tabBtn}`}
                             // style={{
@@ -72,7 +72,7 @@ export default class DescriptionMain extends Component {
                             ><i className="fas fa-laptop-code"></i></div>
                             <div className="nameverb" style={{ color: contentBackground }}> Experience</div>
                         </div>
-                        <div className={`exp ${tabTheme}`} style={activeTab === 'education' ? { backgroundColor: sectionBackground } : {}}
+                        <div className={`exp ${tabTheme}  io_2`} style={activeTab === 'education' ? { backgroundColor: sectionBackground } : {}}
                             onClick={this.selectTab.bind(this, 'education')}>
                             <div className={`signCaps ${tabBtn}`}
                             // style={{
@@ -86,7 +86,7 @@ export default class DescriptionMain extends Component {
                             <div className="nameverb" style={{ color: contentBackground }}>Education</div>
                         </div>
 
-                        <div className={`exp ${tabTheme}`} style={activeTab === 'award' ? { backgroundColor: sectionBackground } : {}}
+                        <div className={`exp ${tabTheme}  io_3`} style={activeTab === 'award' ? { backgroundColor: sectionBackground } : {}}
                             onClick={this.selectTab.bind(this, 'award')}>
                             <div className={`signCaps ${tabBtn}`}
                             // style={{
@@ -106,7 +106,7 @@ export default class DescriptionMain extends Component {
                             <ul className="ulStufTheme" style={{ color: generalColor }}>
                                 <li className="listAbs" style={{ color: generalColor }}>
                                     <div className="expCont_1">
-                                        <div> Bosch (2018-2021)</div>
+                                        <div className="brt_9"> Bosch (2018-2021)</div>
 
                                         <table className="tableA" style={{ color: descriptionColor }}>
                                             <tr className="table_head1">
@@ -138,7 +138,7 @@ export default class DescriptionMain extends Component {
                                 </li>
                                 <li className="listAbs" style={{ color: contentBackground }}>
                                     <div className="expCont_1">
-                                        <div> Infosys (2015-2018)</div>
+                                        <div className="brt_9"> Infosys (2015-2018)</div>
 
                                         <table className="tableA" style={{ color: descriptionColor }}>
                                             <tr className="table_head1">
@@ -152,10 +152,13 @@ export default class DescriptionMain extends Component {
                                                         <td className={`bitTabTd ${tableBorderTheme}`}>{item.name}</td>
                                                         <td className={`bitTabTd ${tableBorderTheme}`}>{item.techs}</td>
                                                         <td className={`bitTabTd ${tableBorderTheme}`}><button className={`menuBtn_1 ${btnDefaultTheme}`}
-                                                            onClick={this.showDescription.bind(this, `inf_${index}`)}>Show </button></td>
+                                                            onClick={this.showDescription.bind(this, `inf_${index}`)}>
+                                                            {`inf_${index}` === activeShowDesc ? 'Hide' : 'Show'}
+                                                        </button></td>
                                                     </tr>
 
-                                                    {activeShowDesc === `inf_${index}` && <tr className="descRT" style={{ color: descriptionColor }}>
+                                                    {activeShowDesc === `inf_${index}` && <tr className="descRT"
+                                                        style={{ color: descriptionColor, borderRight: `4px solid ${generalColor}`, borderLeft: `4px solid ${generalColor}` }}>
                                                         {item.desc}
                                                     </tr>}
                                                 </>
@@ -165,6 +168,46 @@ export default class DescriptionMain extends Component {
                                 </li>
                             </ul>
                         </div>}
+
+                        {activeTab === 'education' && <div>
+                            <ul className="ulStufTheme" style={{ color: generalColor }}>
+                                <li className="listAbs" style={{ color: generalColor }}>
+                                    <div className="expCont_2">
+                                        <div className="brt_9"> Bachelors of Tech (2011-2015)</div>
+                                        <div className="tableC tabC_3">
+                                            <b>Details</b>
+                                            <div>KIIT University, Bhubaneshwar</div>
+                                            <div >   Electronics and Electrical Engineering</div>
+                                            <div >   CGPA: 76.6</div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li className="listAbs" style={{ color: generalColor }}>
+                                    <div className="expCont_2">
+                                        <div className="brt_9"> 12<sup>th</sup> (2009-2010)</div>
+                                        <div className="tableC tabC_2">
+                                            <b>Details</b>
+                                            <div >   St. Karens Senior Secondary School, Patna</div>
+                                            <div >  PCM (Physics, Chemistry, Maths)</div>
+                                            <div >   Percentage: 76.8%</div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li className="listAbs" style={{ color: generalColor }}>
+                                    <div className="expCont_2">
+                                        <div className="brt_9"> 10<sup>th</sup> (2007-2008)</div>
+                                        <div className="tableC tabC_1">
+                                            <b>Details</b>
+                                            <div > Patna Central School, Patna</div>
+                                            <div > Percentage: 78.8%</div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        }
+
+
                     </div>
                 </section>
             </div>
