@@ -28,11 +28,11 @@ export default class DescriptionMain extends Component {
             ]
         };
             this.certificates = [
-                { name: 'React', url: 'https://www.hackerrank.com/certificates/344845fb60a9', path: 'certs/react.png' },
-                { name: 'Problem Solving', url: 'https://www.hackerrank.com/certificates/7b7d5737d089', path:'certs/problemsol.png' },
-                { name: 'JavaScript', url: 'https://www.hackerrank.com/certificates/bbf64a1fe7e0' , path:'certs/javascript.png'},
-                { name: 'Rest API ', url: 'https://www.hackerrank.com/certificates/a3d2371d05ab', path:'certs/Rest.png' },
-                { name: 'Python ', url: 'https://www.hackerrank.com/certificates/ec9d549a161f' , path:'certs/python.png'},
+                { name: 'React', url: 'https://www.hackerrank.com/certificates/344845fb60a9', path: 'certs/react.jpg' },
+                { name: 'Problem Solving', url: 'https://www.hackerrank.com/certificates/7b7d5737d089', path:'certs/problemsol.jpg' },
+                { name: 'JavaScript', url: 'https://www.hackerrank.com/certificates/bbf64a1fe7e0' , path:'certs/javascript.jpg'},
+                { name: 'Rest API ', url: 'https://www.hackerrank.com/certificates/a3d2371d05ab', path:'certs/Rest.jpg' },
+                { name: 'Python ', url: 'https://www.hackerrank.com/certificates/ec9d549a161f' , path:'certs/python.jpg'},
             ];
     }
 
