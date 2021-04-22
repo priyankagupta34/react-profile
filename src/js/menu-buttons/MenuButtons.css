@@ -34,6 +34,7 @@
     font-size: 0.85em;
     border-radius: 4px;
     animation: rollDownAnime linear 0.3s;
+    z-index: 3;
 }
 
 .optionPage .option {
@@ -50,7 +51,6 @@
     user-select: none;
     font-size: 0.8em;
     color: #484444;
-    z-index: 3;
 }
 
 .optionPage .option:first-child {
@@ -138,6 +138,7 @@
     text-align: center;
     color: rgb(41, 49, 2);
     animation: abt linear 0.3s;
+    z-index: 3;
 }
 
 .aboutDetailsRed{
