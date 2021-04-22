@@ -174,7 +174,7 @@ export default class DescriptionMain extends Component {
                                 <li className="listAbs" style={{ color: generalColor }}>
                                     <div className="expCont_2">
                                         <div className="brt_9"> B.Tech (2011-2015)</div>
-                                        <div className="tableC tabC_3">
+                                        <div className="tableC tabC_3" style={{ color: descriptionColor,borderRight: `4px solid ${generalColor}`, borderLeft: `4px solid ${generalColor}`}}>
                                             <b>Details</b>
                                             <div>KIIT University, Bhubaneshwar</div>
                                             <div >   Electronics and Electrical Engineering</div>
@@ -185,7 +185,7 @@ export default class DescriptionMain extends Component {
                                 <li className="listAbs" style={{ color: generalColor }}>
                                     <div className="expCont_2">
                                         <div className="brt_9"> 12<sup>th</sup> (2009-2010)</div>
-                                        <div className="tableC tabC_2">
+                                        <div className="tableC tabC_2" style={{ color: descriptionColor,borderRight: `4px solid ${generalColor}`, borderLeft: `4px solid ${generalColor}`}}>
                                             <b>Details</b>
                                             <div >   St. Karens Senior Secondary School, Patna</div>
                                             <div >  PCM (Physics, Chemistry, Maths)</div>
@@ -196,7 +196,7 @@ export default class DescriptionMain extends Component {
                                 <li className="listAbs" style={{ color: generalColor }}>
                                     <div className="expCont_2">
                                         <div className="brt_9"> 10<sup>th</sup> (2007-2008)</div>
-                                        <div className="tableC tabC_1">
+                                        <div className="tableC tabC_1" style={{ color: descriptionColor,borderRight: `4px solid ${generalColor}`, borderLeft: `4px solid ${generalColor}`}}>
                                             <b>Details</b>
                                             <div > Patna Central School, Patna</div>
                                             <div > Percentage: 78.8%</div>

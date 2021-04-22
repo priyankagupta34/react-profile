@@ -50,6 +50,7 @@
     user-select: none;
     font-size: 0.8em;
     color: #484444;
+    z-index: 3;
 }
 
 .optionPage .option:first-child {
