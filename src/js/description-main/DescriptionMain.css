@@ -264,15 +264,32 @@
 
 .imgrid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px 10px;
     margin: 10px auto;
     padding-right: 10px;
+    padding-bottom: 6vh;
 }
 
 .valueImg{
     width: 100%;
     height: 100%;
+}
+
+/* .imgPdf{
+    padding: 20px;
+} */
+
+.name_76{
+    font-size: 0.9em;
+    margin-top: -5px;
+    font-weight: 500;
+}
+
+.icons_8{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1em;
 }
 
 @media screen and (max-width: 800px) {

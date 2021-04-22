@@ -27,13 +27,13 @@ export default class DescriptionMain extends Component {
                 { name: 'Graph-Analytics', techs: 'ReactJs, NodeJs', desc: 'This was a maintenance project handled by a team of 15 people. It was created using Python forBackend and React.js as Frontend. I was given the opportunity to handle few features in Frontendalong with d3.js graphs, along with Backend.' },
             ]
         };
-            this.certificates = [
-                { name: 'React', url: 'https://www.hackerrank.com/certificates/344845fb60a9', path: 'certs/react.jpg' },
-                { name: 'Problem Solving', url: 'https://www.hackerrank.com/certificates/7b7d5737d089', path:'certs/problemsol.jpg' },
-                { name: 'JavaScript', url: 'https://www.hackerrank.com/certificates/bbf64a1fe7e0' , path:'certs/javascript.jpg'},
-                { name: 'Rest API ', url: 'https://www.hackerrank.com/certificates/a3d2371d05ab', path:'certs/Rest.jpg' },
-                { name: 'Python ', url: 'https://www.hackerrank.com/certificates/ec9d549a161f' , path:'certs/python.jpg'},
-            ];
+        this.certificates = [
+            { name: 'React', url: 'https://www.hackerrank.com/certificates/344845fb60a9', path: 'certs/react.jpg' },
+            { name: 'Problem Solving', url: 'https://www.hackerrank.com/certificates/7b7d5737d089', path: 'certs/problemsol.jpg' },
+            { name: 'JavaScript', url: 'https://www.hackerrank.com/certificates/bbf64a1fe7e0', path: 'certs/javascript.jpg' },
+            { name: 'Rest API ', url: 'https://www.hackerrank.com/certificates/a3d2371d05ab', path: 'certs/Rest.jpg' },
+            { name: 'Python ', url: 'https://www.hackerrank.com/certificates/ec9d549a161f', path: 'certs/python.jpg' },
+        ];
     }
 
     selectTab(activeTab, e) {
@@ -239,9 +239,16 @@ export default class DescriptionMain extends Component {
                                 <li className="listAbs" style={{ color: generalColor }}>
                                     <div className="expCont_2">
                                         <div className="brt_9"> Certificates</div>
-                                        <div className="imgrid">
-                                            {this.certificates.map(item=>(
+                                        <div className="imgrid tableC">
+                                            {this.certificates.map(item => (
+                                                <div className="imgPdf">
                                                     <a href={item.url} target="_blank" rel="noreferrer"><img class="valueImg" src={item.path} alt={item.name}></img></a>
+                                                    <div className="icons_8">
+                                                        <i class="fab fa-hackerrank"></i>
+                                                        <div className="name_76">{item.name}</div>
+                                                        <i class="fas fa-download"></i>
+                                                    </div>
+                                                </div>
                                             ))}
                                         </div>
                                     </div>
