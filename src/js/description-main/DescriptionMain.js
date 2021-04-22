@@ -228,7 +228,7 @@ export default class DescriptionMain extends Component {
                                 <li className="listAbs" style={{ color: generalColor }}>
                                     <div className="expCont_2">
                                         <div className="brt_9"> Patent</div>
-                                        <div className="tableC tabC_1" >
+                                        <div className="tableC tabC_1" style={{ color: descriptionColor, borderRight: `4px solid ${generalColor}`, borderLeft: `4px solid ${generalColor}` }}>
                                             <b>URL</b> comming soon....
                                             <div>Patent for <b>Edmask</b> Project</div>
                                             Click <button className={`menuBtn_1 ${btnDefaultTheme}`} onClick={this.showEdmask.bind(this)}>here</button> to view details about project..
@@ -239,17 +239,18 @@ export default class DescriptionMain extends Component {
                                 <li className="listAbs" style={{ color: generalColor }}>
                                     <div className="expCont_2">
                                         <div className="brt_9"> Certificates</div>
-                                        <div className="imgrid tableC tabC_3">
+                                        <div className="imgrid tableC tabC_3" style={{ color: descriptionColor, borderRight: `4px solid ${generalColor}`, borderLeft: `4px solid ${generalColor}` }}>
                                             {this.certificates.map((item, index) => (
                                                 <div className="imgPdf" key={index}>
                                                     <img class="valueImg" src={item.path} alt={item.name}>
-                                                    {/* <img src="pg.gif" alt={item.name}></img> */}
+                                                        {/* <img src="pg.gif" alt={item.name}></img> */}
                                                     </img>
-                                                   
+
                                                     <div className="icons_8">
-                                                        <a href={item.url} target="_blank" rel="noreferrer"><i class="fab fa-hackerrank"></i></a>
-                                                        <div className="name_76">{item.name}</div>
-                                                        <a href={item.path} download><i class="fas fa-download"></i></a>
+                                                        <a href={item.url} target="_blank" rel="noreferrer"><i class="fab fa-hackerrank" style={{ color: generalColor }}
+                                                            title="Open certificate in Hackerrank tab"></i></a>
+                                                        <div className="name_76" style={{ color: descriptionColor }}>{item.name}</div>
+                                                        <a href={item.path} title="Download certificate" download><i class="fas fa-download" style={{ color: generalColor }}></i></a>
                                                     </div>
                                                 </div>
                                             ))}
