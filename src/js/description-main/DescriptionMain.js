@@ -173,7 +173,7 @@ export default class DescriptionMain extends Component {
                             <ul className="ulStufTheme" style={{ color: generalColor }}>
                                 <li className="listAbs" style={{ color: generalColor }}>
                                     <div className="expCont_2">
-                                        <div className="brt_9"> Bachelors of Tech (2011-2015)</div>
+                                        <div className="brt_9"> B.Tech (2011-2015)</div>
                                         <div className="tableC tabC_3">
                                             <b>Details</b>
                                             <div>KIIT University, Bhubaneshwar</div>
