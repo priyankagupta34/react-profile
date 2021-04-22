@@ -91,7 +91,19 @@
     justify-content: center;
     align-items: center;
     height: 35px;
+    position: relative;
 }
+
+@keyframes vie_2 {
+    0%{
+        top: 10px;
+    }
+    100%{
+        top: 0;
+    }
+}
+
+
 
 .table_head1 {
     display: grid;
@@ -99,6 +111,7 @@
     height: 35px;
     z-index: 2;
     position: relative;
+    animation: vie_2 linear 0.3s;
 }
 
 .menuBtn_1 {
