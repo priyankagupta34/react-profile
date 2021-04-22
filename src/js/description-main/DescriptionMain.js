@@ -239,14 +239,14 @@ export default class DescriptionMain extends Component {
                                 <li className="listAbs" style={{ color: generalColor }}>
                                     <div className="expCont_2">
                                         <div className="brt_9"> Certificates</div>
-                                        <div className="imgrid tableC">
+                                        <div className="imgrid tableC tabC_3">
                                             {this.certificates.map(item => (
                                                 <div className="imgPdf">
-                                                    <a href={item.url} target="_blank" rel="noreferrer"><img class="valueImg" src={item.path} alt={item.name}></img></a>
+                                                    <img class="valueImg" src={item.path} alt={item.name}></img>
                                                     <div className="icons_8">
-                                                        <i class="fab fa-hackerrank"></i>
+                                                        <a href={item.url} target="_blank" rel="noreferrer"><i class="fab fa-hackerrank"></i></a>
                                                         <div className="name_76">{item.name}</div>
-                                                        <i class="fas fa-download"></i>
+                                                        <a href={item.path} download><i class="fas fa-download"></i></a>
                                                     </div>
                                                 </div>
                                             ))}

@@ -265,7 +265,7 @@
 .imgrid{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 40px 10px;
+    grid-gap: 50px 10px;
     margin: 10px auto;
     padding-right: 10px;
     padding-bottom: 6vh;
