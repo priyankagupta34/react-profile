@@ -49,7 +49,7 @@ export const Theme = {
         generalColor: '#b9b90b',
         hoverBacks: '#dede10',
         contentColor: 'rgb(29 29 0)',
-        sectionBackground: '#ffffba',
+        sectionBackground: '#ffffcf',
         contentBackground: '#abab08',
         tableBorderTheme:'yellowTableBorderTheme',
         descriptionColor:'#1d1d00',
