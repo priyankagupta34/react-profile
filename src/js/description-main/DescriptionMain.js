@@ -26,7 +26,14 @@ export default class DescriptionMain extends Component {
                 { name: 'Nia Automation', techs: 'AngularJs, Java', desc: 'I was given the responsibility of developing Front-end in Angular JS and back end in JAVA. As per clientrequirement we later migrated this in newest and fastest technology of React.js for Frontend andPython for Backend from scratch.' },
                 { name: 'Graph-Analytics', techs: 'ReactJs, NodeJs', desc: 'This was a maintenance project handled by a team of 15 people. It was created using Python forBackend and React.js as Frontend. I was given the opportunity to handle few features in Frontendalong with d3.js graphs, along with Backend.' },
             ]
-        }
+        };
+            this.certificates = [
+                { name: 'React', url: 'https://www.hackerrank.com/certificates/344845fb60a9', path: 'certs/react.png' },
+                { name: 'Problem Solving', url: 'https://www.hackerrank.com/certificates/7b7d5737d089', path:'certs/problemsol.png' },
+                { name: 'JavaScript', url: 'https://www.hackerrank.com/certificates/bbf64a1fe7e0' , path:'certs/javascript.png'},
+                { name: 'Rest API ', url: 'https://www.hackerrank.com/certificates/a3d2371d05ab', path:'certs/Rest.png' },
+                { name: 'Python ', url: 'https://www.hackerrank.com/certificates/ec9d549a161f' , path:'certs/python.png'},
+            ];
     }
 
     selectTab(activeTab, e) {
@@ -41,6 +48,14 @@ export default class DescriptionMain extends Component {
             ...this.state,
             activeShowDesc: this.state.activeShowDesc === activeShowDesc ? '' : activeShowDesc
         })
+    }
+
+    showEdmask() {
+        this.setState({
+            ...this.state,
+            activeTab: 'experience',
+            activeShowDesc: `bos_1`
+        });
     }
 
 
@@ -174,7 +189,7 @@ export default class DescriptionMain extends Component {
                                 <li className="listAbs" style={{ color: generalColor }}>
                                     <div className="expCont_2">
                                         <div className="brt_9"> B.Tech (2011-2015)</div>
-                                        <div className="tableC tabC_3" style={{ color: descriptionColor,borderRight: `4px solid ${generalColor}`, borderLeft: `4px solid ${generalColor}`}}>
+                                        <div className="tableC tabC_3" style={{ color: descriptionColor, borderRight: `4px solid ${generalColor}`, borderLeft: `4px solid ${generalColor}` }}>
                                             <b>Details</b>
                                             <div>KIIT University, Bhubaneshwar</div>
                                             <div >   Electronics and Electrical Engineering</div>
@@ -185,7 +200,7 @@ export default class DescriptionMain extends Component {
                                 <li className="listAbs" style={{ color: generalColor }}>
                                     <div className="expCont_2">
                                         <div className="brt_9"> 12<sup>th</sup> (2009-2010)</div>
-                                        <div className="tableC tabC_2" style={{ color: descriptionColor,borderRight: `4px solid ${generalColor}`, borderLeft: `4px solid ${generalColor}`}}>
+                                        <div className="tableC tabC_2" style={{ color: descriptionColor, borderRight: `4px solid ${generalColor}`, borderLeft: `4px solid ${generalColor}` }}>
                                             <b>Details</b>
                                             <div >   St. Karens Senior Secondary School, Patna</div>
                                             <div >  PCM (Physics, Chemistry, Maths)</div>
@@ -196,10 +211,38 @@ export default class DescriptionMain extends Component {
                                 <li className="listAbs" style={{ color: generalColor }}>
                                     <div className="expCont_2">
                                         <div className="brt_9"> 10<sup>th</sup> (2007-2008)</div>
-                                        <div className="tableC tabC_1" style={{ color: descriptionColor,borderRight: `4px solid ${generalColor}`, borderLeft: `4px solid ${generalColor}`}}>
+                                        <div className="tableC tabC_1" style={{ color: descriptionColor, borderRight: `4px solid ${generalColor}`, borderLeft: `4px solid ${generalColor}` }}>
                                             <b>Details</b>
                                             <div > Patna Central School, Patna</div>
                                             <div > Percentage: 78.8%</div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        }
+
+
+                        {activeTab === 'award' && <div>
+                            <ul className="ulStufTheme" style={{ color: generalColor }}>
+                                <li className="listAbs" style={{ color: generalColor }}>
+                                    <div className="expCont_2">
+                                        <div className="brt_9"> Patent</div>
+                                        <div className="tableC tabC_1" >
+                                            <b>URL</b> comming soon....
+                                            <div>Patent for <b>Edmask</b> Project</div>
+                                            Click <button className={`menuBtn_1 ${btnDefaultTheme}`} onClick={this.showEdmask.bind(this)}>here</button> to view details about project..
+                                        </div>
+
+                                    </div>
+                                </li>
+                                <li className="listAbs" style={{ color: generalColor }}>
+                                    <div className="expCont_2">
+                                        <div className="brt_9"> Certificates</div>
+                                        <div className="imgrid">
+                                            {this.certificates.map(item=>(
+                                                    <a href={item.url} target="_blank" rel="noreferrer"><img class="valueImg" src={item.path} alt={item.name}></img></a>
+                                            ))}
                                         </div>
                                     </div>
                                 </li>

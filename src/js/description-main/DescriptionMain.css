@@ -200,7 +200,7 @@
 .tableC {
     font-size: 0.55em;
     border: 4px solid;
-    width: 57%;
+    width: 87%;
     padding: 13px;
     margin: 41px;
     margin-top: 9px;
@@ -260,6 +260,19 @@
 .expCont_2 {
     display: grid;
     grid-template-columns: 0.5fr 1fr;
+}
+
+.imgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin: 10px auto;
+    padding-right: 10px;
+}
+
+.valueImg{
+    width: 100%;
+    height: 100%;
 }
 
 @media screen and (max-width: 800px) {
