@@ -62,6 +62,7 @@
     overflow-x: hidden;
     word-break: break-word;
     height: 74vh;
+    padding-top: 18px;
 }
 
 .listAbs {
@@ -282,11 +283,13 @@
 
     .ulStufTheme {
         border-left: 3px solid;
-        margin-left: 12px
+        margin-left: 2vh;
     }
 
     .listAbs {
-        margin-left: -23px;
+        /* margin-left: -23px; */
+        margin-left: -3.1vh;       
+
     }
 
     .table_head1 {
