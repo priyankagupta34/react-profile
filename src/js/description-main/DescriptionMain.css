@@ -265,7 +265,7 @@
 .imgrid{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 50px 10px;
+    grid-gap: 42px 10px;
     margin: 10px auto;
     padding-right: 10px;
     padding-bottom: 6vh;
@@ -281,9 +281,9 @@
 } */
 
 .name_76{
-    font-size: 0.9em;
-    margin-top: -5px;
-    font-weight: 500;
+    font-size: 0.75em;
+    /* margin-top: -5px; */
+    font-weight: 600;
 }
 
 .icons_8{
@@ -356,6 +356,10 @@
         z-index: 1;
         margin: 1vh 4vw;
     }
+
+    .imgrid{
+        grid-gap: 35px 7px;
+    }
 }
 
 @media screen and (max-width: 800px) and (min-width: 450px) {
@@ -364,4 +368,6 @@
         width: 89vw;
         margin-left: 1vh;
     }
+
+   
 }

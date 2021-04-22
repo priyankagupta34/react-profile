@@ -240,9 +240,12 @@ export default class DescriptionMain extends Component {
                                     <div className="expCont_2">
                                         <div className="brt_9"> Certificates</div>
                                         <div className="imgrid tableC tabC_3">
-                                            {this.certificates.map(item => (
-                                                <div className="imgPdf">
-                                                    <img class="valueImg" src={item.path} alt={item.name}></img>
+                                            {this.certificates.map((item, index) => (
+                                                <div className="imgPdf" key={index}>
+                                                    <img class="valueImg" src={item.path} alt={item.name}>
+                                                    {/* <img src="pg.gif" alt={item.name}></img> */}
+                                                    </img>
+                                                   
                                                     <div className="icons_8">
                                                         <a href={item.url} target="_blank" rel="noreferrer"><i class="fab fa-hackerrank"></i></a>
                                                         <div className="name_76">{item.name}</div>
