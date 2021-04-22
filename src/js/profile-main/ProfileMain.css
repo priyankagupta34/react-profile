@@ -129,7 +129,6 @@ img {
 }
 
 @media screen and (max-width: 800px) and (min-width: 500px) {
-
     .contentData {
         width: 400px;
         margin: 12px auto;

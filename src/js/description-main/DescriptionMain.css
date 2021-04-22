@@ -198,6 +198,7 @@
     letter-spacing: 0.4px;
     word-spacing: 3px;
     line-height: 25px;
+    min-width: 238px;
 }
 
 .tabC_1 {
@@ -304,13 +305,14 @@
     }
 
     .tableC {
-        width: 84vw;
+        width: 78vw;
         margin-left: 0.5vh;
         z-index: 1;
+        margin: 1vh 4vw;
     }
 }
 
-@media screen and (max-width: 800px) and (min-width: 500px) {
+@media screen and (max-width: 800px) and (min-width: 450px) {
 
     .tableC {
         width: 89vw;
