@@ -20,6 +20,7 @@ function App() {
         <header className="App-header">
 
         </header>
+
         <section className="profileSection">
           <div className="leftSection" style={{ backgroundColor: Theme[themeColor].backgroundColor }}>
             <ProfileMain changeThemeHandler={changeThemeHandler} openOptions={openOptions} options={options} />
@@ -28,6 +29,7 @@ function App() {
             <DescriptionMain changeThemeHandler={changeThemeHandler} openOptions={openOptions} options={options} />
           </div>
         </section>
+
         <footer>
 
         </footer>

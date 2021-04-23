@@ -242,10 +242,10 @@ export default class DescriptionMain extends Component {
                                         <div className="imgrid tableC tabC_3" style={{ color: descriptionColor, borderRight: `4px solid ${generalColor}`, borderLeft: `4px solid ${generalColor}` }}>
                                             {this.certificates.map((item, index) => (
                                                 <div className="imgPdf" key={index}>
-                                                    <img class="valueImg" src={item.path} alt={item.name}>
-                                                        {/* <img src="pg.gif" alt={item.name}></img> */}
-                                                    </img>
-
+                                                    <div className="kly_e3">
+                                                        <img class="valueImg" src={item.path} alt={item.name}></img>
+                                                        <img src="pg.gif" alt={item.name}></img>
+                                                    </div>
                                                     <div className="icons_8">
                                                         <a href={item.url} target="_blank" rel="noreferrer"><i class="fab fa-hackerrank" style={{ color: generalColor }}
                                                             title="Open certificate in Hackerrank tab"></i></a>
