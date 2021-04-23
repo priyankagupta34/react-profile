@@ -406,11 +406,15 @@
     }
 
     .jk_32 {
-        padding: 0 2px;
+        /* padding: 0 2px; */
+        width: 60%;
+        margin: 0;
+        padding: 0;
     }
 
     .jk_33{
         padding: 0;
+        margin: 0;
     }
 }
 
@@ -422,4 +426,17 @@
     }
 
 
+    .jk_32{
+        width: 37%;
+        padding-left: 20px;
+    }
+
+}
+
+@media screen and (min-width: 801px) {
+    .tablesD {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 7px;
+    }
 }
