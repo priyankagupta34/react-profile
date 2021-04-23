@@ -17,7 +17,8 @@ export const Theme = {
         tableBorderTheme: 'blueTableBorderTheme',
         descriptionColor: '#161661',
         aboutTheme: 'aboutDetailsBlue',
-        tabBtn: 'blueTabBtn'
+        tabBtn: 'blueTabBtn',
+        pilltheme: 'bluePillTheme'
     },
     magentaTheme: {
         sectionTheme: 'magentaSectionTheme',
@@ -35,7 +36,8 @@ export const Theme = {
         tableBorderTheme: 'magentaTableBorderTheme',
         descriptionColor: '#aa0000',
         aboutTheme: 'aboutDetailsRed',
-        tabBtn: 'magentaTabBtn'
+        tabBtn: 'magentaTabBtn',
+        pilltheme: 'magentaPillTheme'
 
     },
     yellowTheme: {
@@ -54,7 +56,8 @@ export const Theme = {
         tableBorderTheme:'yellowTableBorderTheme',
         descriptionColor:'#1d1d00',
         aboutTheme: 'aboutDetailsYellow',
-        tabBtn: 'yellowTabBtn'
+        tabBtn: 'yellowTabBtn',
+        pilltheme: 'yellowPillTheme'
     }
 }
 

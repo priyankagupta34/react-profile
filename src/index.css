@@ -178,3 +178,18 @@ code {
   background-color: #e6e645;
   color: #b5b50a;
 }
+
+.bluePillTheme{
+  color: #00002f;
+  background-color: #8fc7f8;
+}
+
+.magentaPillTheme{
+  color: #2f0b00;
+  background-color: #f8bebe;
+}
+
+.yellowPillTheme{
+  color: #002f0c;
+  background-color: #f8f881;
+}

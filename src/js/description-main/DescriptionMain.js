@@ -34,6 +34,12 @@ export default class DescriptionMain extends Component {
             { name: 'Rest API ', url: 'https://www.hackerrank.com/certificates/a3d2371d05ab', path: 'certs/Rest.jpg' },
             { name: 'Python ', url: 'https://www.hackerrank.com/certificates/ec9d549a161f', path: 'certs/python.jpg' },
         ];
+        this.skills = [{ skill: 'ReactJs', years: new Date().getFullYear() - 2016 },
+        { skill: 'JavaScript', years: new Date().getFullYear() - 2016 },
+        { skill: 'Html5', years: new Date().getFullYear() - 2016 },
+        { skill: 'Css', years: new Date().getFullYear() - 2016 },
+        { skill: 'Python', years: new Date().getFullYear() - 2018 },
+        { skill: 'NodeJs', years: new Date().getFullYear() - 2020 }]
     }
 
     selectTab(activeTab, e) {
@@ -66,7 +72,7 @@ export default class DescriptionMain extends Component {
         const { options, openOptions, changeThemeHandler } = this.props;
         const { backgroundColor, sectionBackground, generalColor, contentBackground,
             descriptionColor,
-            tableBorderTheme, tabTheme, btnDefaultTheme, tabBtn } = Theme[this.context];
+            tableBorderTheme, tabTheme, btnDefaultTheme, tabBtn, pilltheme } = Theme[this.context];
         return (
             <div style={{ backgroundColor }}>
                 <nav className="clasNav">
@@ -225,6 +231,20 @@ export default class DescriptionMain extends Component {
 
                         {activeTab === 'award' && <div>
                             <ul className="ulStufTheme" style={{ color: generalColor }}>
+                                <li className="listAbs" style={{ color: generalColor }}>
+                                    <div className="expCont_2">
+                                        <div className="brt_9"> Skills <sub></sub></div>
+                                        <div className="tableC tablesD tabC_1" style={{ color: descriptionColor, borderRight: `4px solid ${generalColor}`, borderLeft: `4px solid ${generalColor}` }}>
+                                            {this.skills.map(item => (
+                                                <div className="skillsets">
+                                                    <span className={`jk_32 ${pilltheme}`}>{item.skill}</span>
+                                                    <span className="jk_33" style={{ color: descriptionColor}}><b>{item.years}YRS</b></span>
+                                                </div>
+                                            ))}
+                                        </div>
+
+                                    </div>
+                                </li>
                                 <li className="listAbs" style={{ color: generalColor }}>
                                     <div className="expCont_2">
                                         <div className="brt_9"> Patent</div>
