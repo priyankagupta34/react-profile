@@ -12,19 +12,19 @@ export default class DescriptionMain extends Component {
         };
         this.tableData = {
             bosch: [
-                { name: 'Compass', techs: 'ReactJs, Python', desc: 'This project is created from scratch and is inspired from EDMASK tool described below. It is createdwith ReactJs front-end and Python back-end. It is mainly a search tool, which is using javascript searchalong with mysql search, searching all data mappings.' },
-                { name: 'Edmask', techs: 'ReactJs, Python', desc: 'This application was created to findproblems and solutions of automobiles from outside Bosch automobiles mapped with internal errors,issues and solution' },
-                { name: 'Text-Analytics', techs: 'ReactJs, NodeJs', desc: 'This was a complete internal project for only Bosch employees. Over multiple range of data andcategories is shown here in favor of employees' },
-                { name: 'Geo-Viz', techs: 'ReactJs, Java', desc: 'created this with open-street map-plugin. I receivedthe above mentioned accolade for this project for doing this in less than a month. For automatingcars, many videos are taken all over the world in various vegetation and climates. All these videos andphotos are mapped over the plugin to see properly that where these videos are taken and how arethese images interpreted by vehicle' },
-                { name: 'EBR-Finder', techs: 'Angular6, Python', desc: 'This was a corpus graph project whichincluded data manipulation and selection storage.' },
-                { name: 'Mantra', techs: 'AngularJs, Java', desc: 'We created this project from scratch. I was given the responsibility to create POC of this project in 15days in a Front-end team of 5 developers. Developed this in Angular JS.' },
-                { name: 'Austria', techs: 'AngularJs, Java', desc: 'This actually contains all the imagestaken for machine learning to automate the AI of cars. How image will be interpreted by an A.I camera mounted over a car' },
-                { name: 'Corset', techs: 'ReactJs, Java', desc: 'This actually contains all the imagestaken for machine learning to automate the AI of cars. How image will be interpreted by an A.I camera mounted over a car' }],
+                { name: 'Compass', techs: 'ReactJs, Python', desc: 'This project is created from scratch and is inspired from EDMASK tool described below. It is created ReactJs front-end and Python back-end. It is mainly a search tool, which is using javascript searchalong with mysql search, searching all data mappings.' },
+                { name: 'Edmask', techs: 'ReactJs, Python', desc: 'This application was created to find problems and solutions of automobiles outside and map it within our organization' },
+                { name: 'Text-Analytics', techs: 'ReactJs, NodeJs', desc: 'This is a complete internal project for only Bosch employees. Over multiple range of data and categories is shown here in favor of employees' },
+                { name: 'Geo-Viz', techs: 'ReactJs, Java', desc: 'It is created with open-street map-plugin. I received an accolade for this project for completling this in less than a month. For automatingcars, many videos are taken all over the world in various vegetation and climates. All these videos and photos are mapped over the plugin to see properly that where these videos are taken and how arethese images interpreted by vehicle' },
+                { name: 'EBR-Finder', techs: 'Angular6, Python', desc: 'This was a corpus graph project which included data manipulation and selection storage.' },
+                { name: 'Mantra', techs: 'AngularJs, Java', desc: 'We created this project from scratch. I was given the responsibility to create POC of this project in 15days in a developers team of 5. Developed this in Angular JS.' },
+                { name: 'Austria', techs: 'AngularJs, Java', desc: 'This contains all the images taken for machine learning to automate the cars. How image will be interpreted by an A.I camera mounted over a car' },
+                { name: 'Corset', techs: 'ReactJs, Java', desc: 'This contains all the imagestaken for machine learning to automate the AI of cars. How image will be interpreted by an A.I camera mounted over a car. Its followup of Austria.' }],
 
             infosys: [
-                { name: 'IAP Analytics', techs: 'AngularJs, NodeJs', desc: 'This project was created from scratch as and I was given the responsibility of developing Frontend inAngular JS and a bit of JAVA work as back end. However we created POC in Node.js. I worked in a teamof 15 members.' },
-                { name: 'Nia Automation', techs: 'AngularJs, Java', desc: 'I was given the responsibility of developing Front-end in Angular JS and back end in JAVA. As per clientrequirement we later migrated this in newest and fastest technology of React.js for Frontend andPython for Backend from scratch.' },
-                { name: 'Graph-Analytics', techs: 'ReactJs, NodeJs', desc: 'This was a maintenance project handled by a team of 15 people. It was created using Python forBackend and React.js as Frontend. I was given the opportunity to handle few features in Frontendalong with d3.js graphs, along with Backend.' },
+                { name: 'IAP Analytics', techs: 'AngularJs, NodeJs', desc: 'This project was created from scratch as and I was given the responsibility of developing Frontend in Angular JS and JAVA as back end. However we created POC in Node.js. I worked in a teamof 15 members.' },
+                { name: 'Nia Automation', techs: 'AngularJs, Java', desc: 'I was given the responsibility of developing Front-end in Angular JS and back end in JAVA.' },
+                { name: 'Graph-Analytics', techs: 'ReactJs, NodeJs', desc: 'This was a maintenance project handled by a team of 3-4 developers. It was created using Dotnet forBackend and React.js as Frontend. I was given the opportunity to handle few features in Frontend along with d3.js graphs.' },
             ]
         };
         this.certificates = [
