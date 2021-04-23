@@ -234,13 +234,16 @@ export default class DescriptionMain extends Component {
                                 <li className="listAbs" style={{ color: generalColor }}>
                                     <div className="expCont_2">
                                         <div className="brt_9"> Skills <sub></sub></div>
-                                        <div className="tableC tablesD tabC_1" style={{ color: descriptionColor, borderRight: `4px solid ${generalColor}`, borderLeft: `4px solid ${generalColor}` }}>
+                                        <div className="tableC tabC_1" style={{ color: descriptionColor, borderRight: `4px solid ${generalColor}`, borderLeft: `4px solid ${generalColor}` }}>
+                                            <b>Skill with year(s) of experience)</b>
+                                            <div className="tablesD">
                                             {this.skills.map(item => (
                                                 <div className="skillsets">
                                                     <span className={`jk_32 ${pilltheme}`}>{item.skill}</span>
-                                                    <span className="jk_33" style={{ color: descriptionColor}}><b>{item.years}YRS</b></span>
+                                                    <span className="jk_33" style={{ color: descriptionColor}}><b>{item.years}</b></span>
                                                 </div>
                                             ))}
+                                            </div>
                                         </div>
 
                                     </div>

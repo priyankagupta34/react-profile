@@ -302,6 +302,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 10px;
+    margin-top: 10px;
 }
 
 .skillsets {
@@ -317,13 +318,23 @@
 }
 
 .jk_32 {
-    padding-left: 7px;
-    width: 59%;
+    /* padding-left: 7px; */
+    width: 57%;
+    padding-left: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 .jk_33 {
-    margin-left: 10px;
-    padding: 0 2px;
+    /* margin-left: 10px;
+    padding: 0 2px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
 }
 
 @media screen and (max-width: 800px) {
@@ -405,8 +416,15 @@
         font-size: 0.7em;
     }
 
-    .jk_32 {
-        /* padding: 0 2px; */
+    .jk_32{
+        width: 69%;
+    }
+
+    .jk_33{
+        width: 31%;
+    }
+
+    /* .jk_32 {
         width: 62%;
         margin: 0;
         padding: 0;
@@ -415,7 +433,7 @@
     .jk_33{
         padding: 0;
         margin: 0;
-    }
+    } */
 }
 
 @media screen and (max-width: 800px) and (min-width: 450px) {
