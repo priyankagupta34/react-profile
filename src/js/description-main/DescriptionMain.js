@@ -110,7 +110,7 @@ export default class DescriptionMain extends Component {
                             //     backgroundColor: contentColor
                             // }}
                             ><i className="fas fa-award"></i></div>
-                            <div className="nameverb" style={{ color: contentBackground }}> Award</div>
+                            <div className="nameverb" style={{ color: contentBackground }}> Achievments</div>
                         </div>
 
 

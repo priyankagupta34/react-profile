@@ -17,9 +17,6 @@ function App() {
   return (
     <div>
       <ThemeContext.Provider value={themeColor}>
-        <header className="App-header">
-
-        </header>
 
         <section className="profileSection">
           <div className="leftSection" style={{ backgroundColor: Theme[themeColor].backgroundColor }}>
