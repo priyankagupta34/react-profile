@@ -34,12 +34,12 @@ export default class DescriptionMain extends Component {
             { name: 'Rest API ', url: 'https://www.hackerrank.com/certificates/a3d2371d05ab', path: 'certs/Rest.jpg' },
             { name: 'Python ', url: 'https://www.hackerrank.com/certificates/ec9d549a161f', path: 'certs/python.jpg' },
         ];
-        this.skills = [{ skill: 'ReactJs', years: new Date().getFullYear() - 2016 },
-        { skill: 'JavaScript', years: new Date().getFullYear() - 2016 },
+        this.skills = [{ skill: 'ReactJs', years: 5.5},
+        { skill: 'JavaScript', years: 5.6 },
         { skill: 'Html5', years: new Date().getFullYear() - 2016 },
-        { skill: 'Css', years: new Date().getFullYear() - 2016 },
-        { skill: 'Python', years: new Date().getFullYear() - 2018 },
-        { skill: 'NodeJs', years: new Date().getFullYear() - 2020 }]
+        { skill: 'Css', years: 5.6 },
+        { skill: 'Python', years: 3 },
+        { skill: 'NodeJs', years: 1 }]
     }
 
     selectTab(activeTab, e) {
