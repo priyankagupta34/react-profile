@@ -29,8 +29,8 @@ export default class ProfileMain extends Component {
                     </div> */}
 
                     <div className="contentData" style={{ color: contentColor, backgroundColor: contentBackground }}>
-                        Being an enthusiatic developer, I am looking for a carrier as a React-FrontEnd or React-Python Fullstack Developer.
-                        I have amazing exposure in various react projects. I have also worked with Redux, NodeJs.
+                        Being an enthusiatic developer, I am looking for a carrier as a React-FrontEnd or React-NodeJs or React-Python Fullstack Developer.
+                        I have amazing exposure in various react projects. I have also worked with Redux as well.
                     </div>
 
                     <a href="/Priyanka-Gupta.pdf" download className="aHrf">
