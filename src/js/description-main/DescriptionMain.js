@@ -38,8 +38,8 @@ export default class DescriptionMain extends Component {
         { skill: 'JavaScript', years: 5.6 },
         { skill: 'Html5', years: new Date().getFullYear() - 2016 },
         { skill: 'Css', years: 5.6 },
-        { skill: 'Python', years: 3 },
-        { skill: 'NodeJs', years: 1 }]
+        { skill: 'Python', years: 2 },
+        { skill: 'NodeJs', years: 2 }]
     }
 
     selectTab(activeTab, e) {
