@@ -33,7 +33,7 @@ export default class ProfileMain extends Component {
                         I have amazing exposure in various react projects. I have also worked with Redux as well.
                     </div>
 
-                    <a href="/Priyanka-Gupta.pdf" download className="aHrf">
+                    <a href="/Priyanka-gh.pdf" download className="aHrf">
                         <button className={`${btnTheme} btnY`} style={{ color: contentColor }}>Download Resume <i className="fa fa-download"></i> </button>
                     </a>
                 </div>
